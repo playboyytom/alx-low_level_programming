@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts2 - prints strings
- * @str: function parameter
+ * @str:function parameter
  * Return: 0
  */
 
