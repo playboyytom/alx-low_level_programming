@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	int i, j;
+	int i;
+	int j;
 
 	for (i = 0; i < 100; i++)
 	{
@@ -22,8 +23,8 @@ int main(void)
 				putchar(j % 10 + '0');
 				if (i != 98 || j != 99)
 				{
-				putchar(',');
-				putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
